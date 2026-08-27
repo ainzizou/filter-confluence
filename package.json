@@ -1,0 +1,20 @@
+{
+  "name": "jira-confluence-filter-migrator",
+  "version": "1.0.0",
+  "description": "Migrate Jira filter IDs in Confluence DC content to Cloud",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:full": "node index.js --auto",
+    "start:specific": "node index.js",
+    "start:space": "node index.js --space",
+    "check-access": "node index.js --check-access",
+    "get:cloud-filters": "node index.js --get-cloud-filters",
+    "get:dc-filters": "node index.js --get-dc-filters",
+    "get:space-pages": "node index.js --get-space-pages"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
